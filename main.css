@@ -8,11 +8,11 @@
     src: url("http://koorka.in/plist/fonts/comodo/comodo-regular.ttf");
 }
 .siteContainer {
-	background-color: lightgray;
+	background-color: transparent;
 }
 .link {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 .header {
  	height: 60px;
@@ -23,26 +23,44 @@
 .logo {
 	font-family: 'Chelsea Market', ;
 	font-size: 30px;
-	color: black;
+	color: white;
 	margin-left: 10px;
 	margin-top: 10px;
 	float: left;
 }
 
 @media only screen and (max-width: 600px) {
+
+@font-face {
+    font-family: "comodo";
+    src: url("http://koorka.in/plist/fonts/comodo/comodo-regular.ttf");
+}
+
+.headtext a {
+	padding: 50px;
+	text-decoration: none;
+	color: white;
+}
+
   body {
-    background-color: lightblue;
+    background-color: white;
   }
   .header {
  	height: 60px;
     width: 100%;
-    background-color: transparent;
+    background-color: gray;
     opacity: 0.9;
+    top: 0px;
+    bottom: 5px;
   }
   .container1 {
-  	height: 500px;
+  	height: 900px;
     width: 100%;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
+    background-image:    url(images/bg.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
   }
   .container2 {
   	height: 500px;
@@ -54,4 +72,16 @@
   	border-width: 0px;
   	bottom: 0px;
   }
+  .headtext {
+  	font-family: ;
+  	font-size: 24px;
+  }
+  html, body, h1, h2, h3, h4, h5, h6 {
+  	font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  .w3text {
+  	font-family: "Allerta Stencil", Sans-serif;
+  	font-size: 30px;
+  }
+
 }
