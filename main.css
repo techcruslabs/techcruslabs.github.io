@@ -40,12 +40,18 @@
     opacity: 0.9;
   }
   .container1 {
-  	height: 250px;
+  	height: 500px;
     width: 100%;
-    background-color: black;
+    background-color: lightgreen;
+  }
+  .container2 {
+  	height: 500px;
+    width: 100%;
+    background-color: lightblue;
   }
   .iframe {
+  	border-top: 1px solid white;
   	border-width: 0px;
-  	margin: 0px;
+  	bottom: 0px;
   }
 }
