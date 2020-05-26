@@ -8,7 +8,7 @@
     src: url("http://koorka.in/plist/fonts/comodo/comodo-regular.ttf");
 }
 .siteContainer {
-	background-color: white;
+	background-color: lightgray;
 }
 .link {
 	text-decoration: none;
@@ -19,4 +19,12 @@
     width: 100%;
     background-color: transparent;
     opacity: 0.9;
+}
+.logo {
+	font-family: 'Chelsea Market', ;
+	font-size: 30px;
+	color: black;
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
 }
