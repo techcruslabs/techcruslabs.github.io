@@ -24,7 +24,7 @@
 	font-family: 'Chelsea Market', ;
 	font-size: 30px;
 	color: black;
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-top: 10px;
 	float: left;
 }
@@ -38,5 +38,13 @@
     width: 100%;
     background-color: transparent;
     opacity: 0.9;
-}
+  }
+  .container1 {
+  	height: 250px;
+    width: 100%;
+    background-color: black;
+  }
+  .iframe {
+  	border-width: 0px;
+  }
 }
