@@ -78,14 +78,18 @@
   	padding: 25px;
   }
   .firstimg {
-  	border-radius: 10px;
+  	border-radius: 10px 10px 0px 0px;
   	width: 100%;
   	height: 300px;
   	background-size: cover;
   	background-image: url(images/first.jpg);
   }
+  .textbox {
+  	border-radius: 0px 0px 10px 10px;
+  	background-color: gray;
+  	padding: 10px;
+  }
   .head1 {
-  	padding-top: 10px;
   	color: white;
   	font-family: "Allerta Stencil", Sans-serif;
   }
@@ -98,10 +102,12 @@
   .text2 {
   	color: white;
   }
+  .container3 {
+  	width: 100%;
+  }
   .iframe {
-  	border-top: 1px solid white;
-  	border-width: 0px;
   	bottom: 0px;
+  	border-width: 0px;
   }
   .headtext {
   	position: relative;
