@@ -21,7 +21,7 @@
     opacity: 0.9;
 }
 .logo {
-	font-family: 'Chelsea Market', ;
+	font-family: 'comodo', ;
 	font-size: 30px;
 	color: white;
 	margin-left: 10px;
@@ -42,7 +42,7 @@
   .header {
  	height: 60px;
     width: 100%;
-    background-color: gray;
+    background-color: white;
     opacity: 0.9;
     top: 0px;
     bottom: 5px;
@@ -90,7 +90,7 @@
   }
   .launchimg {
   	top: 100px;
-  	width: 500px;
+  	width: 400px;
   	height: 30%;
   	background-size: cover; 
   	background-image: url(images/launch.png);
