@@ -50,7 +50,7 @@
 }
 
   body {
-    background-color: white;
+    background-color: blue;
   }
   .header {
  	height: 60px;
@@ -58,7 +58,7 @@
     background-color: white;
     opacity: 0.9;
     top: 0px;
-    bottom: 5px;
+    bottom: 0px;
   }
   .container1 {
   	height: 900px;
