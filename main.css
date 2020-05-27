@@ -103,7 +103,8 @@
   }
   .launchimg {
   	top: 100px;
-  	width: 100%;
+  	margin: 25px;
+  	width: 80%;
   	height: 200px;
   	background-size: cover; 
   	background-image: url(images/launch.png);
