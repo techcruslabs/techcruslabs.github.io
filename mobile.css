@@ -10,6 +10,9 @@ body{
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
     background: url(./images/unnamed.jpg) no-repeat fixed;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
 }
 .scontainer{
     background: rgba(0, 0, 0, 0.79)
@@ -128,9 +131,9 @@ section{
 
 }
 .c-img{
-    width: 70%;
+    width: 90%;
     position: ;
-    margin: 25px 65px;
+    margin: 25px 45px;
 }
 
 
