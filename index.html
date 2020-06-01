@@ -6,9 +6,11 @@
     <title>Sketchberry | Techcruslabs</title>
     <link rel="stylesheet" href="./mobile.css" type="text/css">
     <script src="https://kit.fontawesome.com/ca3e0ad06b.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="scontainer">
+    <div class="scontainer" >
         <div class="header">
             <div class="contents">
                 <div class="logo">
@@ -16,7 +18,7 @@
                     <span style="font-size: 12px; color: grey;">by Techcruslabs</span>
                 </div>
                 <div class="i-top">
-                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i style="color: #2196f3;" class="fab fa-instagram-square"></i></a>
                 </div>
             </div>
             <div class="nav">
@@ -29,7 +31,7 @@
             </div>
         </div>
         
-        <div class="start-contents">
+        <div class="start-contents" >
             <div class="titles">
                 <h1>Humanity to Space</h1>
             </div>
@@ -39,11 +41,13 @@
             </div>
         </div>
 
-        <section id="about">
-            <div class="launch-america">
+        <section id="about" >
+            <div class="launch-america" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <img src="./images/launchamerica.png" height="220" width="360" alt="launch-america">
             </div>
-            <div class="text">
+            <div class="text" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <p>In 2017 NASA intiated the commertial space programe which invites private companies to send and manage vehicles to the international space station and beyond. The launch of Demo two is the result of hundreds of people working together for a common dream, that is to exted life beyond Earth.</p>
                <br>
                 <p>Demo-2 designed, developed & run by SpaceX is reveloutionary in the sense both the Falcon and Dragon is designed to be brought back and reused for the upcming missions as well. This reduces the cost of space exploration exponentially hence opening a ton of opportunities for the generations to come. This hostoric mission lays the foundation to some exciting years to come</p>
@@ -51,14 +55,15 @@
             </div>
 
             <div class="patch">
-                <img src="./images/dm2patch.png" alt="dm2">
-                <div class="patch-text">
+                <img src="./images/dm2patch.png" alt="dm2" data-aos="zoom-out-left">
+                <div class="patch-text" data-aos="zoom-out-right">
                     <h2>Demo 2</h2><br>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorum, error necessitatibus pariatur amet
                 </div>
             </div>
            
-            <div class="ns">
+            <div class="ns" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div class="nasa">
                     <img src="./images/nasa.png" alt="nasa">
                 </div>
@@ -82,17 +87,47 @@
                         </div>
                     </div>
                 </div>
+
+               
+
+            </div>
+
+            <div class="blackbox">
+                <div class="ccc">
+                    <span>Go to our blog</span>&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <br>
+            <div class="blackbox">
+                <div class="ccc">
+                    <span>View our Gallery</span>&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="popup">
+                <span><b>Join our community</b></span><br><br><br><br><br>
+                <i style="font-size: 100px;" class="fab fa-whatsapp-square"></i>
+                <div class="blackbox" style="width: 94.5%; background: grey; margin: 10px 10px; bottom: 0; position: absolute; z-index: 333;">
+                    <div class="ccc">
+                        <span>View our Gallery</span>&nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
             </div>
 
         </section>
 
         <section id="images">
-            
+           
         </section>
 
         <section id="blog"></section>
 
         <section id="contact"></section>
     </div>
+    <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
