@@ -89,6 +89,7 @@ section{
     padding: 30px;
     text-align: justify;
     color: white;
+    font-family: monospace;
 }
 .patch{
     
@@ -107,6 +108,8 @@ section{
     text-align: justify;
     color: white;
     padding: 25px;
+    font-family: monospace;
+
 }
 .ns{
     margin-top: 10%;
@@ -131,9 +134,9 @@ section{
 
 }
 .c-img{
-    width: 90%;
+    width: 88%;
     position: ;
-    margin: 25px 45px;
+    margin: 25px 30px;
 }
 
 
@@ -186,11 +189,11 @@ section{
 
 .blackbox{
     height: 50px;
-    width: 70%;
+    width: 88%;
     background-color:#2196f3ad;
     backdrop-filter: blur(20px);
     color: white;
-    margin: 0px 60px;
+    margin: 0px 30px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
@@ -208,8 +211,8 @@ section{
     position: relative;
     z-index: 0;
     height: 300px;
-    width: 70%;
-    margin: 20px 60px;
+    width: 88%;
+    margin: 20px 30px;
     padding: 10px 0px;
     border-radius: 10px;
     text-align: center;
