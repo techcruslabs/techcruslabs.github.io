@@ -129,21 +129,37 @@ section{
 }
 .c-img{
     height: 400px;
-    width: 400px;
+    width: 70%;
     position: absolute;
-    margin: 25px 45px;
+    margin: 25px 65px;
 }
+
+
 .c-img img{
     position: relative;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    z-index: 1;
 }
 .c-content{
     text-align: justify;
     height: 100px;
-    width: 81%;
-    padding: 0px 40px;
+    width: 70%;
+    padding: 0px 65px;
     color: white;
     position: relative;
-    padding-top: 340px;
+    padding-top: 290px;
+}
+.plus{
+    background: white;
+    position: absolute;
+    z-index: 22;
+    padding: 10px;
+}
+
+.c-con{
+    background: white;
+    color: black;
+    padding: 17px;
+    border-radius: 0px 0px 15px 15px;
 }
