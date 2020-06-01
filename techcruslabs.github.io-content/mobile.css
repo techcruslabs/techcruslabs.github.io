@@ -1,0 +1,149 @@
+@font-face{font-family:DINPro-Medium;src:url(fonts/DINPro-Medium.woff2) format("woff2"),url(fonts/DINPro-Medium.woff) format("woff"),url(fonts/DINPro-Medium.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Light;src:url(fonts/DINPro-Light.woff2) format("woff2"),url(fonts/DINPro-Light.woff) format("woff"),url(fonts/DINPro-Light.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Bold;src:url(fonts/DINPro-Bold.woff2) format("woff2"),url(fonts/DINPro-Bold.woff) format("woff"),url(fonts/DINPro-Bold.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Regular;src:url(fonts/DINPro.woff2) format("woff2"),url(fonts/DINPro.woff) format("woff"),url(fonts/DINPro.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: DINPro-Bold,Arial,Verdana,sans-serif;
+    background: url(./images/unnamed.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.scontainer{
+    background: rgba(0, 0, 0, 0.79)
+    
+}
+section{
+    height: 100vh;
+    width: 100%;
+}
+#about{
+    background: black;
+    padding: 10px 0px;
+}
+.start-contents{
+    height: 100vh;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background: white;
+}
+.contents{
+    padding: 20px;
+}
+.logo{
+    float: left;
+}
+.i-top{
+    float: right;
+    font-size: 24px;
+}
+.nav{
+    padding-top: 20px;
+    text-align: center;
+}
+.nav ul li{
+ 
+    margin: 0px 13px;
+    display: inline-block;
+    cursor: pointer;
+    color: gray;
+}
+.nav ul li:hover{
+    border-bottom: 4px solid red;
+}
+
+.titles{
+    padding-top: 50%;
+    text-align: center;
+    color: white;
+}
+.goo{
+    text-align: center;
+
+    padding-bottom: 30%;
+}
+.btn{
+    height: 45px;
+    width: 150px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, .3);
+}
+
+.launch-america{
+    text-align: center;
+}
+.text{
+    padding: 30px;
+    text-align: justify;
+    color: white;
+}
+.patch{
+    
+    display: flex;
+}
+
+.patch img{
+    margin: 30px 10px;
+    object-fit: cover;
+    height: 200px;
+    width: 180px;
+    float: left;
+}
+.patch-text{
+    float: right;
+    text-align: justify;
+    color: white;
+    padding: 25px;
+}
+.ns{
+    margin-top: 10%;
+    display: flex;
+    padding: 0px 40px;
+    background: black;
+}
+.nasa img{
+    height: 30px;
+    width: 80%;
+    margin: 30px;
+    filter: grayscale(100%);
+}
+.spacex img{
+    margin: 30px;
+    height: 30px;
+    width: 80%;
+    filter: invert(40%);
+
+}
+.crew{
+
+}
+.c-img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin: 25px 45px;
+}
+.c-img img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.c-content{
+    text-align: justify;
+    height: 100px;
+    width: 81%;
+    padding: 0px 40px;
+    color: white;
+    position: relative;
+    padding-top: 340px;
+}
