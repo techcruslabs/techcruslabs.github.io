@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+.siteContainer {
+	
+}
+.link {
+	text-decoration: none;
+	color: black;
+}
+.header {
+ 	height: 60px;
+    width: 100%;
+    background-color: transparent;
+    opacity: 0.9;
+}
+.logo {
+	font-family: 'comodo';
+	font-size: 30px;
+	color: black;
+	margin: 10px;
+	float: left;
+}
+
+.boxcontainer {
+    position: relative;
+    float: center;
+    margin: 0;
+}
+
+.boxone {
+  position: relative;
+  display: block;
+    width: 250px;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em ;
+    padding: 0 10px 0;
+    color: #666;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.leftside {
+    float: left;
+}
+
+.rightside {
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+
+@font-face {
+    font-family: "comodo-regular";
+    src: url("http://koorka.in/plist/fonts/comodo/comodo-regular.ttf");
+}
+html{
+  scroll-behavior: smooth;
+}
+  body {
+    background-color: white;
+  }
+  .header {
+ 	  height: 60px;
+    width: 100%;
+    background-color: white;
+    opacity: 1;
+    top: 0px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  .logo {
+    text-align: center;
+    font-family: 'comodo';
+    font-size: 30px;
+    color: black;
+    width: 98%;
+  }
+  section{
+    height: 100vh;
+    width: 100%;
+  }
+  .footer{
+    width: 100%;
+    background: white;
+    padding: 16px;
+    height: 60px;
+  }
+  .footer .brand{
+    float: left;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .footer .social-medias{
+    float: right;
+    font-size: 26px;
+  }
+ 
+  .container1 {
+  	height: 900px;
+    width: 100%;
+    /*background-color: lightgreen;*/
+    background-image:    url(images/bg.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+  }
+  .container2 {
+  	height: 100%;
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+  }
+  .firststage {
+  	padding: 25px;
+  }
+  .firstimg {
+  	border-radius: 10px 10px 0px 0px;
+  	width: 100%;
+  	height: 100px;
+  	background-size: cover;
+  	background-image: url(images/first.JPG);
+  	align-content: center;
+  	padding: 20px;
+  }
+  .textbox {
+  	border-radius: 0px 0px 10px 10px;
+  	background-color: gray;
+  	padding: 10px;
+  }
+  .head1 {
+  	color: white;
+  	font-family: "Allerta Stencil", Sans-serif;
+  }
+  .text1 {
+  	color: white;
+  }
+  .head2 {
+  	color: white;
+  }
+  .text2 {
+  	color: white;
+  }
+  .container3 {
+  	width: 100%;
+  }
+  .iframe {
+  	bottom: 0px;
+  	border-width: 0px;
+  }
+  .headtext {
+  	position: relative;
+    min-height: 300px;
+  	padding-top: 50px;
+  	left: 25px;
+  	width: 90%;
+  	font-size: 12px;
+  	margin-bottom: 50px;
+  	padding: 40px;
+	color: white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+  	/*font-family: "Comic Sans MS", cursive, sans-serif;*/
+  }
+  .w3text {
+  	font-family: "Allerta Stencil", Sans-serif;
+  	font-size: 20px;
+  	text-align: justify;
+  	position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .launchimg {
+  	top: 100px;
+  	width: 100%;
+    height: 200px;
+    padding-top: 10%;
+    text-align: center;
+  }
+  .launchimg img{
+    height: 200px;
+    width: 400px;
+
+  }
+
+}
+#timeline{
+  background: black;
+  font-family:'Chivo', sans-serif; 
+  padding-top: 40px;
+}
+
+.box{
+  margin:0 10%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px 10px 40px 60px;
+}
+
+.box ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transition: all 0.5s linear;
+  top:0;
+}
+
+.box ul:last-of-type{top:80px}
+
+.box ul:before{
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border:1px dashed #fff;
+  position: absolute;
+  top:0;
+  left:30px
+}
+
+.box ul li{
+  margin: 20px 60px 60px;
+  position: relative;
+  padding: 10px 20px;
+  background:rgba(255, 255, 255, 0.3);
+  color:#fff;
+  border-radius: 10px;
+  line-height: 20px;
+  width: 70%;
+}
+
+
+.box ul li > span{
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border:1px solid #fff;
+  position: absolute;
+  top:0;
+  left:-30px;
+}
+
+.box ul li > span:before,.box ul li > span:after{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:#ff6d6d;
+  border:2px solid #fff;
+  position: absolute;
+  left:-7.5px;
+}
+
+.box ul li > span:before{top:-10px}
+.box ul li > span:after{top:95%}
+
+.box .title{
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.box .info:first-letter{text-transform: capitalize;line-height: 1.7}
+
+.box .name{
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-style: italic;
+  text-align: right;
+  margin-right: 20px;
+}
+
+
+.box .time span{
+  position: absolute;
+  left: -100px;
+  color:#fff;
+  font-size:80%;
+  font-weight: bold;
+}
+.box .time span:first-child{top:-16px}
+.box .time span:last-child{top:94%}
+
+
+.arrow{
+  position: absolute;
+  top: 105%;
+  left: 22%;
+  cursor: pointer;
+height:20px;
+width:20px;
+color: white;
+}
+
+.arrow:hover{
+  -webkit-animation: arrow 1s linear infinite;
+     -moz-animation: arrow 1s linear infinite;
+       -o-animation: arrow 1s linear infinite;
+          animation: arrow 1s linear infinite;
+}
+
+.box ul:last-of-type .arrow{
+  position: absolute;
+  top: 105%;
+  left: 22%;
+  transform: rotateX(180deg);
+  cursor: pointer;
+}
+
+svg{
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes arrow{
+  0%,100%{
+      top:105%;
+  }
+  50%{
+      top:106%;
+  }
+}
+
+@-webkit-keyframes arrow{
+  0%,100%{
+      top:105%;
+  }
+  50%{
+      top:106%;
+  }
+}
+
+@-moz-keyframes arrow{
+  0%,100%{
+      top:105%;
+  }
+  50%{
+      top:106%;
+  }
+}
+
+@-o-keyframes arrow{
+  0%,100%{
+      top:105%;
+  }
+  50%{
+      top:106%;
+  }
+}
