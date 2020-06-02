@@ -75,12 +75,10 @@ section{
 	padding-bottom: 10px;
 }
 .blogheader span {
-	margin-left: 0px;
+	margin: 0px 10px;
 	font-family: DINPro;
 	font-size: 27px;
-
 }
-
 .author h4{
 	padding-top: 40px;
 	padding-bottom: 50px;
@@ -91,11 +89,11 @@ section{
 	color: white;
 }
 .blogimg {
-	margin: 30px;
+    margin: 0px 20px;
 	height: 30vh;
-    width: 400px;
+    width: 91.5%;
     /*background-color: lightgreen;*/
-    background: url(https://github.com/techcruslabs/techcruslabs.github.io/blob/master/images/first.JPG);
+    background: url(./images/first.JPG);
     border-radius: 2px;
     border:0.5px;
     background-size:     cover;                      /* <------ */
