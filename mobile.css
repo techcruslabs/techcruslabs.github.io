@@ -21,7 +21,11 @@ section{
     width: 100%;
 }
 #images{
+<<<<<<< HEAD
     height: 69vh;
+=======
+    height: 80vh;
+>>>>>>> 17830c1fb3ca737ff87c514973b551e7cbd77c34
 }
 #about{
     background: black;
@@ -198,7 +202,7 @@ section{
     background-color:#2196f3ad;
     backdrop-filter: blur(20px);
     color: white;
-    margin: 0px 30px;
+    margin: 0px 20px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
@@ -217,7 +221,7 @@ section{
     z-index: 0;
     height: 300px;
     width: 88%;
-    margin: 20px 0px 30px 30px;
+    margin: 20px 0px 20px 20px;
     padding: 10px 0px;
     border-radius: 10px;
     text-align: center;
