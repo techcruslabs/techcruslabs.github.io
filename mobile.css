@@ -21,7 +21,7 @@ section{
     width: 100%;
 }
 #images{
-    height: 76vh;
+    height: 80vh;
 }
 #about{
     background: black;
@@ -198,7 +198,7 @@ section{
     background-color:#2196f3ad;
     backdrop-filter: blur(20px);
     color: white;
-    margin: 0px 30px;
+    margin: 0px 20px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
@@ -217,7 +217,7 @@ section{
     z-index: 0;
     height: 300px;
     width: 88%;
-    margin: 20px 0px 30px 30px;
+    margin: 20px 0px 20px 20px;
     padding: 10px 0px;
     border-radius: 10px;
     text-align: center;
