@@ -20,6 +20,9 @@ section{
     height: 100vh;
     width: 100%;
 }
+#images{
+    height: 76vh;
+}
 #about{
     background: black;
     padding: 100px 0px;
