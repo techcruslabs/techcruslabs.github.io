@@ -12,11 +12,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-
 }
 .scontainer{
     background: rgba(0, 0, 0, 0.79)
-    
 }
 section{
     height: 100vh;
@@ -25,6 +23,7 @@ section{
 #about{
     background: black;
     padding: 100px 0px;
+    height: 150vh;
 }
 .start-contents{
     height: 100vh;
@@ -48,15 +47,19 @@ section{
     padding-top: 20px;
     text-align: center;
 }
-.nav ul li{
- 
+.o{
     margin: 0px 13px;
     display: inline-block;
     cursor: pointer;
     color: gray;
+    height: 20px;
+    animation: all 0.3s linear ;
 }
-.nav ul li:hover{
+.o:active{
     border-bottom: 4px solid red;
+}
+.colorr{
+    margin: 0px 100px;
 }
 
 .titles{
@@ -66,7 +69,6 @@ section{
 }
 .goo{
     text-align: center;
-
     padding-bottom: 30%;
 }
 .btn{
@@ -89,7 +91,7 @@ section{
     padding: 30px;
     text-align: justify;
     color: white;
-    font-family: monospace;
+    font-family: sans-serif;
 }
 .patch{
     
@@ -108,7 +110,7 @@ section{
     text-align: justify;
     color: white;
     padding: 25px;
-    font-family: monospace;
+    font-family: sans-serif;
 
 }
 .ns{
@@ -146,23 +148,6 @@ section{
     border-radius: 15px 15px 15px 15px;
     z-index: 1;
 }
-.c-content{
-    text-align: justify;
-    display: none;
-    height: 100px;
-    width: 70%;
-    padding: 0px 65px;
-    position: relative;
-    padding-top: 290px;
-}
-
-.c-con{
-    background: white;
-    color: black;
-    padding: 17px;
-    height: 100px;
-    border-radius: 0px 0px 15px 15px;
-}
 
 
 .plus{
@@ -184,6 +169,23 @@ section{
 
 .plus:focus .c-content{
     display: block;
+}
+.c-content{
+    text-align: justify;
+    display: none;
+    height: 100px;
+    width: 70%;
+    padding: 0px 65px;
+    position: relative;
+    padding-top: 290px;
+}
+
+.c-con{
+    background: white;
+    color: black;
+    padding: 17px;
+    height: 100px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 
@@ -212,10 +214,27 @@ section{
     z-index: 0;
     height: 300px;
     width: 88%;
-    margin: 20px 30px;
+    margin: 20px 0px 30px 30px;
     padding: 10px 0px;
     border-radius: 10px;
     text-align: center;
-    cursor: pointer;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(20px);
+}
+.footer{
+    height: 10px;
+    padding: 25px;
+    background: white;
+    color: black;
+    bottom: 0;
+}
+.c{
+    float: left;
+    color: gray;
+}
+.s{
+    float: right;
+}
+.s .b i{
+    font-size: 24px;
 }
