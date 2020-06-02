@@ -95,9 +95,9 @@ section{
 	height: 30vh;
     width: 400px;
     /*background-color: lightgreen;*/
-    background-image:    url(images/first.jpg);
+    background: url(https://github.com/techcruslabs/techcruslabs.github.io/blob/master/images/first.JPG);
     border-radius: 2px;
-    border:0.5px solid black;
+    border:0.5px;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;   
