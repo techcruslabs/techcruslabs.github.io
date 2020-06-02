@@ -106,5 +106,5 @@ section{
 }
 .para p {
 	padding-top: 40px;
-	justify-content: center;
+	text-align: justify;
 }
