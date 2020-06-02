@@ -1,0 +1,110 @@
+@font-face{font-family:DINPro-Medium;src:url(fonts/DINPro-Medium.woff2) format("woff2"),url(fonts/DINPro-Medium.woff) format("woff"),url(fonts/DINPro-Medium.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Light;src:url(fonts/DINPro-Light.woff2) format("woff2"),url(fonts/DINPro-Light.woff) format("woff"),url(fonts/DINPro-Light.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Bold;src:url(fonts/DINPro-Bold.woff2) format("woff2"),url(fonts/DINPro-Bold.woff) format("woff"),url(fonts/DINPro-Bold.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Regular;src:url(fonts/DINPro.woff2) format("woff2"),url(fonts/DINPro.woff) format("woff"),url(fonts/DINPro.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: DINPro-Bold,Arial,Verdana,sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+.scontainer{
+    background: rgba(0, 0, 0, 0.79)
+    
+}
+section{
+    height: 100vh;
+    width: 100%;
+}
+#about{
+    background: black;
+    padding: 100px 0px;
+}
+.start-contents{
+    height: 100vh;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background: white;
+}
+.contents{
+    padding: 20px;
+}
+.logo{
+    float: left;
+}
+.i-top{
+    float: right;
+    font-size: 24px;
+}
+.nav{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
+.nav ul li{
+    margin: 0px 13px;
+    display: inline-block;
+    cursor: pointer;
+    color: gray;
+}
+.nav ul li:hover{
+    border-bottom: 4px solid red;
+}
+
+.blogcontent {
+	margin: 0px;
+	background-color: black;
+	height: 100;
+}
+
+.blogheader {
+	text-align: left;
+	color: white;
+	font-family: DINPro-Light;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.blogheader span {
+	margin: 0px 10px;
+	font-family: DINPro;
+	font-size: 27px;
+}
+.author h4{
+	padding-top: 40px;
+	padding-bottom: 50px;
+	text-align: right;
+	font-family: 'Sacramento', cursive;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.blogimg {
+    margin: 0px 20px;
+	height: 30vh;
+    width: 91.5%;
+    /*background-color: lightgreen;*/
+    background: url(./images/first.JPG);
+    border-radius: 2px;
+    border:0.5px;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+.para {
+	margin: 30px;
+	color: white;
+}
+.para p {
+	padding-top: 40px;
+	justify-content: center;
+}
