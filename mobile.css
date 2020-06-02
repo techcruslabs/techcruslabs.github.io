@@ -21,11 +21,7 @@ section{
     width: 100%;
 }
 #images{
-<<<<<<< HEAD
-    height: 69vh;
-=======
     height: 80vh;
->>>>>>> 17830c1fb3ca737ff87c514973b551e7cbd77c34
 }
 #about{
     background: black;
@@ -139,12 +135,8 @@ section{
     filter: invert(40%);
 
 }
-.crew{
-
-}
 .c-img{
     width: 88%;
-    position: ;
     margin: 25px 30px;
 }
 
@@ -221,12 +213,11 @@ section{
     z-index: 0;
     height: 300px;
     width: 88%;
-    margin: 20px 0px 20px 20px;
+    margin: 20px 0px; 
     padding: 10px 0px;
     border-radius: 10px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 1);
-    backdrop-filter: blur(20px);
+    background-color: white;
 }
 .footer{
     height: 10px;
@@ -244,4 +235,14 @@ section{
 }
 .s .b i{
     font-size: 24px;
+}
+
+#events{
+    padding: 50px 0px;
+}
+.bb{
+    height: 200px;
+    width: 88%;
+    background: white;
+    margin: 25px;
 }
