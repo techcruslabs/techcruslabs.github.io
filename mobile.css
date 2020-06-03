@@ -21,12 +21,12 @@ section{
     width: 100%;
 }
 #images{
-    height: 80vh;
+    height: 150vh;
 }
 #about{
     background: black;
     padding: 100px 0px;
-    height: 150vh;
+    height: 152vh;
 }
 .start-contents{
     height: 100vh;
@@ -220,7 +220,7 @@ section{
     background-color: white;
 }
 .footer{
-    height: 10px;
+    height: 20px;
     padding: 25px;
     background: white;
     color: black;
@@ -238,11 +238,28 @@ section{
 }
 
 #events{
-    padding: 50px 0px;
+    padding: 150px 0px;
+}
+.bcb{
+    position:;
 }
 .bb{
+    position: fixed;
     height: 200px;
     width: 88%;
     background: white;
     margin: 25px;
+    z-index: 555;
+    cursor: pointer;
 }
+.bc{
+
+    position: relative;
+    z-index: 1000;
+    height: 200px;
+    margin: 0;
+    width: 88%;
+    background: rgba(255, 255, 255, 0.4);
+    animation: joel;
+}
+
