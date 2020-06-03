@@ -1,3 +1,31 @@
+@font-face{font-family:DINPro-Medium;src:url(fonts/DINPro-Medium.woff2) format("woff2"),url(fonts/DINPro-Medium.woff) format("woff"),url(fonts/DINPro-Medium.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Light;src:url(fonts/DINPro-Light.woff2) format("woff2"),url(fonts/DINPro-Light.woff) format("woff"),url(fonts/DINPro-Light.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Bold;src:url(fonts/DINPro-Bold.woff2) format("woff2"),url(fonts/DINPro-Bold.woff) format("woff"),url(fonts/DINPro-Bold.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Regular;src:url(fonts/DINPro.woff2) format("woff2"),url(fonts/DINPro.woff) format("woff"),url(fonts/DINPro.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}
+/* latin */
+@font-face {
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4-7jA-U.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* telugu */
+  @font-face {
+    font-family: 'Tenali Ramakrishna';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Tenali Ramakrishna'), local('TenaliRamakrishna'), url(https://fonts.gstatic.com/s/tenaliramakrishna/v6/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-MM5_rclJ_tdyo.woff2) format('woff2');
+    unicode-range: U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+200C-200D, U+25CC;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Tenali Ramakrishna';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Tenali Ramakrishna'), local('TenaliRamakrishna'), url(https://fonts.gstatic.com/s/tenaliramakrishna/v6/raxgHj6Yt9gAN3LLKs0BZVMo8jmwn1-ML5_rclJ_tQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 html{
     scroll-behavior: smooth;
 }
@@ -10,6 +38,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
     background: rgba(0, 0, 0, 0.79)
@@ -91,7 +120,8 @@ section{
     padding: 30px;
     text-align: justify;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Tenali Ramakrishna';
+    font-size: 18px;
 }
 .patch{
     
@@ -166,16 +196,18 @@ section{
     text-align: justify;
     height: 200px;
     width: 100%;
-    margin-top: -15px;
+    margin-top: 5px;
     position: relative;
-    z-index: 1;
+    z-index: ;
+    border-radius: 15px 15px 15px 15px;
+
 }
 
 .c-con{
     background: white;
     color: black;
     padding: 10px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 
