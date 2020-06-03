@@ -222,7 +222,7 @@ section{
     text-align: center;
     cursor: pointer;
 }
-.blackbox:hover{
+.blackbox:active{
     background-color: #2196f3;
 
 }
@@ -243,22 +243,23 @@ section{
     background-color: white;
 }
 .footer{
-    height: 20px;
-    padding: 25px;
+    height: 30px;
+    padding: 20px;
     background: white;
     color: black;
     bottom: 0;
 }
 .c{
-    float: left;
+    float: right;
     color: gray;
+    line-height: 2;
 }
 .s{
-    float: right;
+    float: left;
+    font-size: 32px;
+    cursor: pointer;
 }
-.s .b i{
-    font-size: 24px;
-}
+
 
 #events{
     padding: 150px 0px;
