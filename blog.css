@@ -1,4 +1,4 @@
-@font-face{font-family:DINPro-Medium;src:url(fonts/DINPro-Medium.woff2) format("woff2"),url(fonts/DINPro-Medium.woff) format("woff"),url(fonts/DINPro-Medium.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Light;src:url(fonts/DINPro-Light.woff2) format("woff2"),url(fonts/DINPro-Light.woff) format("woff"),url(fonts/DINPro-Light.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Bold;src:url(fonts/DINPro-Bold.woff2) format("woff2"),url(fonts/DINPro-Bold.woff) format("woff"),url(fonts/DINPro-Bold.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Regular;src:url(fonts/DINPro.woff2) format("woff2"),url(fonts/DINPro.woff) format("woff"),url(fonts/DINPro.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}
+x@font-face{font-family:DINPro-Medium;src:url(fonts/DINPro-Medium.woff2) format("woff2"),url(fonts/DINPro-Medium.woff) format("woff"),url(fonts/DINPro-Medium.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Light;src:url(fonts/DINPro-Light.woff2) format("woff2"),url(fonts/DINPro-Light.woff) format("woff"),url(fonts/DINPro-Light.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Bold;src:url(fonts/DINPro-Bold.woff2) format("woff2"),url(fonts/DINPro-Bold.woff) format("woff"),url(fonts/DINPro-Bold.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}@font-face{font-family:DINPro-Regular;src:url(fonts/DINPro.woff2) format("woff2"),url(fonts/DINPro.woff) format("woff"),url(fonts/DINPro.otf) format("opentype");font-style:normal;font-weight:400;font-display:block}
 
 html{
     scroll-behavior: smooth;
@@ -86,12 +86,24 @@ section{
 	text-decoration: none;
 	color: white;
 }
-.blogimg {
+.blogimg1 {
+    margin: 0px 20px;
+    height: 30vh;
+    width: 91.5%;
+    /*background-color: lightgreen;*/
+    background: url(./images/first.JPG);
+    border-radius: 2px;
+    border:0.5px;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+.blogimg2 {
     margin: 0px 20px;
 	height: 30vh;
     width: 91.5%;
     /*background-color: lightgreen;*/
-    background: url(./images/first.JPG);
+    background: url(./images/dragon.jpg);
     border-radius: 2px;
     border:0.5px;
     background-size:     cover;                      /* <------ */
