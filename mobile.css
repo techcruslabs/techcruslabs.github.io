@@ -277,7 +277,8 @@ section{
 
     height: auto;
     display: flex;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .f-img{
     height: 400px;
