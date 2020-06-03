@@ -215,9 +215,9 @@ section{
 .blackbox{
     height: 50px;
     width: 88%;
-    background-color:#2196f3ad;
+    background-color:white;
     backdrop-filter: blur(20px);
-    color: white;
+    color: black;
     margin: 0px 20px;
     border-radius: 10px;
     text-align: center;
