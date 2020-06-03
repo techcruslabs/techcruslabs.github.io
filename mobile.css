@@ -264,3 +264,10 @@ section{
 #events{
     padding: 150px 0px;
 }
+
+.gallerydiv {
+    height: auto;
+    width: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
