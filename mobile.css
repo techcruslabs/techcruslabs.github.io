@@ -72,6 +72,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    width: 100vw;
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
