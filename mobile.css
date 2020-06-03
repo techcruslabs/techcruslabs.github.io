@@ -138,7 +138,7 @@ section{
     padding: 30px;
     text-align: justify;
     color: white;
-    font-family: 'Tenali Ramakrishna';
+    font-family: 'Architects Daughter';
     font-size: 22px;
 }
 .patch{
@@ -261,6 +261,11 @@ section{
     background-color: white;
 }
 .popup span {
+    font-family: 'Piedra', cursive;
+    font-size: 22px;
+}
+
+.popup h4 {
     font-family: 'Piedra', cursive;
     font-size: 22px;
 }
