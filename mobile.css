@@ -243,6 +243,10 @@ section{
     text-align: center;
     background-color: white;
 }
+.popup span {
+    font-family: 'Tenali Ramakrishna';
+    font-size: 20px;
+}
 .footer{
     height: 30px;
     padding: 20px;
