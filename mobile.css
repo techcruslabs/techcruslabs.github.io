@@ -48,6 +48,7 @@ section{
 }
 #images{
     height: auto;
+    padding: 0px 10px;
 }
 #about{
     background: black;
@@ -267,7 +268,6 @@ section{
 
 .gallerydiv {
     height: auto;
-    width: auto;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width: 80vw;
+    
 }
