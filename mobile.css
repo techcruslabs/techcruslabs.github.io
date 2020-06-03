@@ -71,7 +71,7 @@ body{
     background: url(./images/fdd.jpg)  center center no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
@@ -280,6 +280,7 @@ section{
 .popup span {
     font-family: 'Piedra', cursive;
     font-size: 22px;
+    font-weight: bold;
 }
 
 .popup h4 {
