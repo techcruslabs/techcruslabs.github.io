@@ -74,7 +74,7 @@ body{
     background: url(./images/fdd.jpg)  center center no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
-  
+    height: 100%;
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
@@ -276,7 +276,7 @@ section{
     z-index: 0;
     height: 300px;
     width: 88%;
-    margin: 20px 0px; 
+    margin: 40px 0px; 
     padding: 10px 0px;
     border-radius: 10px;
     text-align: center;
@@ -293,18 +293,22 @@ section{
     font-size: 19px;
 }
 .footer{
-    height: 30px;
-    padding: 20px;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    padding: 0px;
     background: white;
     color: black;
     bottom: 0;
 }
 .c{
+    margin: 10px;
     float: right;
     color: gray;
     line-height: 2;
 }
 .s{
+    margin: 10px;
     float: left;
     font-size: 32px;
     cursor: pointer;
