@@ -71,8 +71,7 @@ html{
     padding: 0;
 }
 body{
-  
-    background-attachment: fixed;
+    background: black;
     height: 100%;
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
