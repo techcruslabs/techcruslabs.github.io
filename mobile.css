@@ -78,9 +78,8 @@ body{
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
-    background: url(./images/fdd.jpg)  center center no-repeat fixed;
-    background-size: cover;
-    height: 100vh;
+    
+   
 }
 section{
    
@@ -95,6 +94,8 @@ section{
     height: 180vh;
 }
 .start-contents{
+    background: url(./images/fdd.jpg)  center center no-repeat fixed;
+    background-size: cover;
     height: 100vh;
 }
 .header{
