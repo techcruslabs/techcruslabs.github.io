@@ -93,7 +93,7 @@ section{
 }
 .start-contents{
     background: url(./images/fdd.jpg)  center center no-repeat fixed;
-    background-size: cover;
+    background-size: 100vh;
     height: 100vh;
 }
 .header{
