@@ -89,7 +89,7 @@ section{
 #about{
     background: black;
     padding: 100px 0px;
-    height: 180vh;
+    height: 160vh;
 }
 .start-contents{
     background: url(./images/fdd.jpg)  center center no-repeat fixed;
@@ -252,14 +252,13 @@ section{
 
 .blackbox{
     height: 50px;
-    width: 88%;
+    width: 90%;
     background-color:white;
     backdrop-filter: blur(20px);
     color: black;
     margin: 0px 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     text-align: center;
-    cursor: pointer;
 }
 .blackbox:active{
     background-color: #2196f3;
@@ -274,22 +273,23 @@ section{
     position: relative;
     z-index: 0;
     height: 250px;
-    width: 80%;
+    width: 90%;
     margin: 40px 0px; 
     padding: 10px 0px;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
     background-color: white;
 }
 .popup span {
-    font-family: 'Piedra', cursive;
-    font-size: 19px;
+    font-family: 'Tenali-Ramakrishna';
+    font-size: 18px;
     font-weight: lighter;
 }
 
 .popup h4 {
-    font-family: 'Piedra', cursive;
-    font-size: 19px;
+    font-family: 'DINPro-Medium', cursive;
+    font-size: 18px;
+    font-weight: lighter;
 }
 .footer{
     position: fixed;
@@ -322,6 +322,7 @@ section{
     height: auto;
     width: 90%;
     display: flex;
+    margin-bottom: 10px;
 }
 
 
