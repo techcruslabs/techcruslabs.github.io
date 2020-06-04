@@ -71,15 +71,13 @@ html{
     padding: 0;
 }
 body{
-    background: url(./images/fdd.jpg)  center center no-repeat fixed;
-    background-size: cover;
+  
     background-attachment: fixed;
     height: 100%;
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
-    
-   
+    height: 100vh;
 }
 section{
    
