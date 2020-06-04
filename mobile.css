@@ -74,12 +74,13 @@ body{
     background: url(./images/fdd.jpg)  center center no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
-    width: 100vw;
+  
     font-family: DINPro-Bold,Arial,Verdana,sans-serif;
 }
 .scontainer{
-    background: rgba(0, 0, 0, 0.79)
+    background: url(./images/fdd.jpg)  center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
 }
 section{
    
